@@ -41,12 +41,12 @@ const Rutinas = () => {
       </Form.Group>
       <Form.Select aria-label="Default select example" {...register("diaSeleccionado")} >
       <option>Selecciona un día</option>
-      <option value="Dia1">Día 1</option>
-      <option value="Dia2">Día 2</option>
-      <option value="Dia3">Día 3</option>
-      <option value="Dia4">Día 4</option>
-      <option value="Dia5">Día 5</option>
-      <option value="Dia6">Día 6</option>
+      <option value="Dia 1">Día 1</option>
+      <option value="Dia 2">Día 2</option>
+      <option value="Dia 3">Día 3</option>
+      <option value="Dia 4">Día 4</option>
+      <option value="Dia 5">Día 5</option>
+      <option value="Dia 6">Día 6</option>
     </Form.Select>
     <Form.Select aria-label="Default select example" {...register("musculoSeleccionado")} >
       <option>Selecciona un musculo</option>
@@ -59,8 +59,8 @@ const Rutinas = () => {
     </Form.Select>
     <Form.Select aria-label="Default select example" {...register("ejercicioSeleccionado")} >
       <option>Selecciona un/mas ejercicios</option>
-      <option value="PressMancuerna">Press con mancuernas</option>
-      <option value="PechoPlano">Pecho Plano</option>
+      <option value="Press Mancuerna">Press con mancuernas</option>
+      <option value="Pecho Plano">Pecho Plano</option>
       <option value="Mariposa">Mariposa</option>
     </Form.Select>
     <Form.Control type="number" placeholder="Repeticiones" {...register("repeticionesRutina", {
